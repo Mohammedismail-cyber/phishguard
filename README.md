@@ -91,7 +91,7 @@ character-level deep learning, combine with domain-age and certificate signals, 
 PhishGuard performs static string analysis only. It never connects to, fetches or resolves any analysed URL.
 
 ## Author
-Name, Admission Number, School of Computing Sciences, Riara University
+MOHAMMED OSMAN ISMAIL 
 
 ## Licence
 MIT
