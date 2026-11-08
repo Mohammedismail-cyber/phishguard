@@ -1,0 +1,40 @@
+{
+  "best_model": "logistic_regression",
+  "n_samples": 2000,
+  "n_test": 400,
+  "n_features": 12,
+  "roc_auc": 0.9326233155828897,
+  "avg_prediction_ms": 0.2078206699999896,
+  "accuracy": 0.925,
+  "precision": 0.9203980099502488,
+  "recall": 0.9296482412060302,
+  "f1": 0.925,
+  "all_models": {
+    "random_forest": {
+      "accuracy": 0.91,
+      "precision": 0.893719806763285,
+      "recall": 0.9296482412060302,
+      "f1": 0.9113300492610837
+    },
+    "logistic_regression": {
+      "accuracy": 0.925,
+      "precision": 0.9203980099502488,
+      "recall": 0.9296482412060302,
+      "f1": 0.925
+    }
+  },
+  "feature_importance": {
+    "suspicious_keyword_count": 0.2826587785323401,
+    "uses_https": 0.15701575706246415,
+    "hostname_length": 0.14491500995844378,
+    "has_suspicious_tld": 0.10566681025130588,
+    "url_length": 0.10098269676626727,
+    "path_depth": 0.04987711670705673,
+    "num_digits": 0.04693505630528474,
+    "num_dots": 0.04649280012427779,
+    "has_ip_address": 0.02946558183666365,
+    "num_subdomains": 0.01545043459582076,
+    "num_hyphens": 0.01170310592600374,
+    "has_at_symbol": 0.008836851934071414
+  }
+}
